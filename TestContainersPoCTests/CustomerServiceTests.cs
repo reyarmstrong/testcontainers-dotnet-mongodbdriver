@@ -118,9 +118,8 @@ public class CustomerServiceTests : IAsyncLifetime
             new() { Id = 3457, Name = "Jane Doe" },
         };
         
-        await _sut.CreateCustomers(newCustomers);
-        
         // Act
+        await _sut.CreateCustomers(newCustomers);
         var customers = await _sut.GetCustomersAsync();
         
         Assert.Equal(newCustomers.Count, customers.Count);
