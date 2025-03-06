@@ -1,0 +1,56 @@
+# .NET Core
+
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# Package dependencies
+**/node_modules/
+**/packages/
+
+# Environment variables
+.env
+
+# Publish output
+**/publish/
+**/out/
+
+# Resharper files
+*_Resharper*/
+
+# IIS Express files
+.vs/
+
+# Dotnet local tools
+.dotnet-tools.json
+
+# Coverage reports
+coverage/
+*.coverage
+
+# NuGet packages
+*.nupkg
+
+# Temporary files
+*.tmp
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
